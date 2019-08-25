@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Взаимосвязи",
+    "colorLabel": "Голубой - формальные; Красный - неформальные",
+    "nodeLabel": "Стейкхолдеры/организации"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "ФОИВ",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#000",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 16
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 1,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
